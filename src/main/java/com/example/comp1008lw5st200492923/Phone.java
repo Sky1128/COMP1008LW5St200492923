@@ -1,4 +1,4 @@
-package com.example.comp1008LW5st200492923;
+package com.example.comp1008lw5st200492923;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
