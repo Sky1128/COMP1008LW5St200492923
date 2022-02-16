@@ -10,4 +10,13 @@ public class Inventory {
         phones = new ArrayList<Phone>();
     }
 
+    public void addPhone(Phone obj1)
+    {
+        phones.add(obj1);
+    }
+    public int getNumOfPhoness()
+    {
+        int numberOfPhones = phones.size();
+        return numberOfPhones;
+    }
 }
