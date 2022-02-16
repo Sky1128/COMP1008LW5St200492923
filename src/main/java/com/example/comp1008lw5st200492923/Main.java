@@ -25,7 +25,7 @@ public class Main {
         inventory.addPhone(phone3);
 
         System.out.println("\nNumber of phones in the inventory should be: 3");
-        System.out.println("Number of phones in the inventory is:        "+inventory.getNumOfPhones());
+        System.out.println("Number of phones in the inventory is:        "+inventory.getNumOfPhoness());
 
         System.out.println("\nThe value of the inventory should be: $4870.74");
         System.out.println("The value of the inventory is:        $"+inventory.getInventoryValue());
@@ -43,9 +43,9 @@ public class Main {
 
         System.out.println("\n~~~~~~~~~~~Bonus~~~~~~~~~");
         System.out.println("The cheapest phone should be: Google-Pixel 6, memory: 128 price: $936.99");
-        System.out.printf("The cheapest phone is:        %s%n",inventory.getCheapest());
+        //System.out.printf("The cheapest phone is:        %s%n",inventory.getCheapest());
 
         System.out.println("\nempty inventory cheapest phone should return: null");
-        System.out.println("empty inventory actually returns:             "+empty.getCheapest());
+        //System.out.println("empty inventory actually returns:             "+empty.getCheapest());
     }
 }
